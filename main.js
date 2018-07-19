@@ -12,3 +12,14 @@ $('#tiltEl').tilt({
 $('#paintBase').tilt({
   scale: 1.8 //scales tilt element
 })
+
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
+});

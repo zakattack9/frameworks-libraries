@@ -112,6 +112,7 @@ nav {
 
 #tiltEl {
   background: linear-gradient(to bottom right, red, blue);
+  /* background: transparent; */
   transform-style: preserve-3d;
   width: 300px;
   height: 300px;
@@ -124,11 +125,13 @@ nav {
 }
 
 #innerTilt {
+  /* transform: translateZ(-100px); */
   transform: translateZ(90px);
   height: 100%;
   width: 100%;
   line-height: 300px;
   text-align: center;
+  /* color: black; */
   color: white;
   font-size: 30px;
 }
@@ -173,4 +176,11 @@ nav {
   top: 75px;
   left: 75px;
   opacity: 0.9;
+}
+
+.snap {
+  height: 100%;
+  background-color: #00ffaa;
+  border: darkolivegreen 2px solid;
+  box-sizing: border-box;
 }
