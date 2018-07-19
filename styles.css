@@ -5,6 +5,16 @@ html, body {
   font-family: 'Dosis', sans-serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
 .title {
   letter-spacing: 20px;
   text-align: center;
