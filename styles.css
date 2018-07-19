@@ -1,0 +1,124 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Dosis', sans-serif;
+}
+
+.title {
+  letter-spacing: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.main {
+  background-color: orangered;
+  height: 100px;
+}
+
+#second {
+  background-color: cadetblue;
+  height: 200px;
+}
+
+.col-sm {
+  background-color: greenyellow;
+  border: 2px black solid;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+}
+
+#three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen {
+  background-color: red;
+  height: 200px;
+  border: 5px white solid;
+}
+
+#scene {
+  background-color: aqua;  
+  height: 100%;
+}
+
+#obj1, #obj2, #obj3, #obj5, #obj6, #obj7 {
+  width: 100%;
+  height: 100%;
+}
+
+#obj1 div {
+  background-color: #00ffaa;
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 60%;
+}
+
+#obj2 div {
+  background-color: #33ffbb;
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 50%;
+}
+
+#obj3 div {
+  background-color: #66ffcc;
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 40%;
+}
+
+#obj5 div, #obj6 div, #obj7 div {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 42%;
+  left: 1%;
+}
+
+#obj6 div {
+  top: 52%;
+}
+
+#obj7 div {
+  top: 62%;
+}
+
+.parallax-window {
+  height: 100%;
+}
+
+#hideParallax {
+  height: 100%;
+}
+
+#tiltEl {
+  background: linear-gradient(to bottom right, red, blue);
+  transform-style: preserve-3d;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: 25%;
+}
+
+#innerTilt {
+  transform: translateZ(80px);
+  height: 100%;
+  width: 100%;
+  line-height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
