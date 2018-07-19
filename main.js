@@ -6,5 +6,9 @@ var parallaxInstance = new Parallax(scene);
 $('#tiltEl').tilt({
   glare: true,
   maxGlare: 0.5, //determines how bright the glare is
-  //scale: 1.1 //scales tilt element
+  scale: 1.3 //scales tilt element
+})
+
+$('#paintBase').tilt({
+  scale: 1.8 //scales tilt element
 })
